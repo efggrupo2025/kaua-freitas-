@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AnimeVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>AnimeVerse</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Lançamentos</a></li>
+        <li><a href="#">Populares</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="destaque">
+    <h2>Destaque da Semana</h2>
+    <div class="banner">
+      <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Anime Destaque" />
+      <div class="info">
+        <h3>Attack on Titan</h3>
+        <p>O confronto final entre humanos e titãs!</p>
+        <button>Assistir Agora</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="animes">
+    <h2>Populares</h2>
+    <div class="anime-grid">
+      <div class="anime-card">
+        <img src="https://i.imgur.com/H4gRrYG.jpg" alt="Naruto" />
+        <h3>Naruto</h3>
+      </div>
+      <div class="anime-card">
+        <img src="https://i.imgur.com/R0yY9Gq.jpg" alt="One Piece" />
+        <h3>One Piece</h3>
+      </div>
+      <div class="anime-card">
+        <img src="https://i.imgur.com/7QUy9Eu.jpg" alt="Demon Slayer" />
+        <h3>Demon Slayer</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AnimeVerse. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
